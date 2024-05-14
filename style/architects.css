@@ -71,8 +71,45 @@ nav h3 {
 }
 
 .header-img img {
-    width: 100%; 
+    width: 100%;
 }
+
+
+/* teamwork-section style */
+
+.teamwork-section {
+    margin: 70px 230px;
+    display: flex;
+    gap: 4.25rem;
+    align-items: center;
+}
+
+.teamwork-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.1rem;
+}
+
+.teamwork-images img {
+    width: 300px;
+    border-radius: 8px;
+}
+
+.teamwork-title {
+    color: #FF900E;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.teamwork-title-part1{
+    color:#727272;
+    font-weight: 500;
+}
+
+.teamwork-title-part2{
+    color:#131313;
+}
+
 
 
 
@@ -85,28 +122,30 @@ nav h3 {
 /* mobile devices */
 
 @media screen and (max-width:576px) {
-    header{
+    header {
         padding: 20px;
     }
-    nav{
+
+    nav {
         flex-direction: column;
     }
 }
 
 /* tablet device */
 @media screen and (min-width:576px) and (max-width:960px) {
-    header{
+    header {
         padding: 50px;
     }
-    nav{
+
+    nav {
         flex-direction: column;
     }
 }
 
 /* large device */
 @media screen and (min-width:960px) and (max-width:1260px) {
-    header{
+    header {
         padding: 100px;
     }
-    
+
 }
